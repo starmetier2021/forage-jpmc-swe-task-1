@@ -1,0 +1,10 @@
+diff --git a/main.py b/main.py
+index e69de29..f543ded 100644
+--- a/main.py
++++ b/main.py
+@@ -0,0 +1,5 @@
++def getDataPoint(quote):
++    stock, bid_price, ask_price, price = quote
++    return stock, bid_price, ask_price, (bid_price + ask_price) / 2
++def getRatio(price_a, price_b):
++    return price_a / price_b
